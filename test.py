@@ -1,0 +1,9 @@
+import bisect
+mylist = [1, 2, 3, 7, 9, 11, 33]
+print(bisect.bisect(mylist, 7))
+
+max_val = float('inf')
+print(max_val > 10000000000)
+
+min_val = float('-inf')
+print(min_val < -10000000000)
