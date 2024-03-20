@@ -207,7 +207,7 @@ with open('myfile.txt') as file:
 
 `with - as`구문을 이용하면 코드를 간결하고, 파일을 `close()` 하지 않아도 됨(`with - as`종료시 파일이 자동으로 close)
 
-`readlinse()`가 EOF까지만 읽으므로, EOF를 일일히 체크해줄 필요 없음 
+`readlines()`가 EOF까지만 읽으므로, EOF를 일일히 체크해줄 필요 없음 
 
 
 
