@@ -24,7 +24,7 @@ print(*divmod(a, b)) # unpacking
 
 반대로 큰 숫자를 다룰 떄는 속도가 더 빠름.(숫자가 더 커질 수록 차이는 더 커짐)
 
-속도 관련 자세한 내용은 [1] 을 참조
+속도 관련 자세한 내용은 [여기](https://stackoverflow.com/questions/30079879/is-divmod-faster-than-using-the-and-operators)를 참조
 
 ### 2) n진법으로 표기된 string을 10진법 수로 변환
 
@@ -208,11 +208,6 @@ with open('myfile.txt') as file:
 `with - as`구문을 이용하면 코드를 간결하고, 파일을 `close()` 하지 않아도 됨(`with - as`종료시 파일이 자동으로 close)
 
 `readlines()`가 EOF까지만 읽으므로, EOF를 일일히 체크해줄 필요 없음 
-
-
-
-[1]: (https://stackoverflow.com/questions/30079879/is-divmod-faster-than-using-the-and-operators)
-
 
 ---
 
