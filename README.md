@@ -4,9 +4,7 @@
 
 ---
 
-## 1. 프로그래머스: 파이썬을 파이썬답게
-
-* 이미 익히고 있는 내용은 생략
+## 1. [프로그래머스: 파이썬을 파이썬답게](https://school.programmers.co.kr/learn/courses/4008/4008-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%84-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%8B%B5%EA%B2%8C)
 
 ### 1) 몫과 나머지 - divmod
 
