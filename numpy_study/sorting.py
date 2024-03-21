@@ -14,6 +14,7 @@ arr = np.random.randint(15, size=(3, 4))
 print(arr)
 print(np.sort(arr))
 print(np.sort(arr, axis=0))
+# reshape to 1-dim and sort by asc
 print(np.sort(arr, axis=None))
 
 print(np.sort(arr, axis=1))
