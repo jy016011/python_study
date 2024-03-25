@@ -222,4 +222,6 @@ with open('myfile.txt') as file:
    - numpy함수는 C/C++로 제작이 되어 Python 내장함수에 비해 수행되는 명령어가 적음
  - 대용령의 배열과 행렬연산을 빠르게 수행한다.
  - 고차원적인 수학 연산자와 함수를 포함하고 있다.
- - 데이터 분석을 위한 패키지인 pandas나 기계학습을 위한 scikit-learn, tensorflow 등이 numpy를 기본 자료형으로 사용하여 동작 
+ - 데이터 분석을 위한 패키지인 pandas나 기계학습을 위한 scikit-learn, tensorflow 등이 numpy를 기본 자료형으로 사용하여 동작
+
+이 외 내용 [여기](https://velog.io/@jy016011/numpy-%EA%B8%B0%EC%B4%88-%ED%95%99%EC%8A%B5) 참조
