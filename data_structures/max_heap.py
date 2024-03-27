@@ -39,7 +39,7 @@ class MaxHeap:
             # 현재 노드 (인덱스 i) 와 최댓값 노드 (왼쪽 아니면 오른쪽 자식) 를 교체합니다.
             self.data[i], self.data[smallest] = self.data[smallest], self.data[i]
         # 재귀적 호출을 이용하여 최대 힙의 성질을 만족할 때까지 트리를 정리합니다.
-        self.maxHeapify(smallest)
+            self.maxHeapify(smallest)
 
 
 
