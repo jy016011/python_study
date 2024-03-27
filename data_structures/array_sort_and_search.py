@@ -35,3 +35,15 @@ def binary_search(L, x):
         else:
             return mid
     return -1
+
+from max_heap import MaxHeap
+def heapSort(unsorted):
+    H = MaxHeap()
+    for item in unsorted:
+        H.insert(item)
+    sorted_arr = []
+    data = H.remove()
+    while data:
+        sorted_arr.append(data)
+        data = H.remove()
+    return sorted_arr
