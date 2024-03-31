@@ -1,4 +1,4 @@
-from doubly_linked_list import DoublyLinkedList, Node
+from data_structures.linkedList_and_stack.doubly_linked_list import DoublyLinkedList, Node
 class PriorityQueue:
 
     def __init__(self):

@@ -1,4 +1,4 @@
-from doubly_linked_list import Node, DoublyLinkedList
+from data_structures.linkedList_and_stack.doubly_linked_list import Node, DoublyLinkedList
 
 
 class ArrayStack:
