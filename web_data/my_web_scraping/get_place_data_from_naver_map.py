@@ -17,8 +17,7 @@ input_box = driver.find_element(By.CLASS_NAME, "input_search")
 input_box.send_keys(query)
 input_box.send_keys(Keys.RETURN)
 time.sleep(5)
-# (ActionChains(driver).send_keys_to_element(input_box, query)
-#  .send_keys_to_element(input_box, Keys.RETURN).perform())
+
 
 iframe = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "searchIframe")))
 driver.switch_to.frame(iframe)
