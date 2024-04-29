@@ -130,7 +130,10 @@ def get_recruitment_infos(hrefs):
 def main():
     query = "데이터엔지니어"
     hrefs = []
-    for page_no in range(1, 11):
+    """
+    원하는 페이지까지 채용공고 링크 크롤링, 검색어: query, 직무 필터링: 데이터엔지니어 직무로 URL 상에 걸려있음
+    """
+    for page_no in range(1, 2):
         # url = f"https://www.jobkorea.co.kr/Search/?stext={query}&tabType=recruit&Page_No={page_no}"
         url = f"https://www.jobkorea.co.kr/Search/?stext={query}&duty=1000236&tabType=recruit&Page_No={page_no}"
         soup = get_soup_from_page_with_query(url)
@@ -142,9 +145,12 @@ def main():
     # hrefs += get_recruitment_links(soup)
     # print(hrefs)
     # print(len(hrefs))
+    """
+    가져온 채용공고 URL들을 하나씩 방문하여 기업 정보 수집 
+    """
     recruitment_infos = get_recruitment_infos(hrefs)
 
-    recruitment_infos.to_csv("recruitment_info2.csv")
+    recruitment_infos.to_csv("recruitment_info.csv")
 
 
 if __name__ == "__main__":
