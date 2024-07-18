@@ -2,7 +2,6 @@ import pandas as pd
 import requests
 import xml.etree.ElementTree as ET
 
-kopis_api_key = 'c16e37f36c9c4109b6e069f6357022f4'
 seoul_code = '11'
 
 def extract_performance_data(url):
